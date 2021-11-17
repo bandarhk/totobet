@@ -1,0 +1,250 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display:block
+}
+body {
+	line-height:1;
+	background:#000;
+	color:#fff;
+	font-family:prompt,arial;
+	background:url(bg-header2.png) repeat-x  center 58px, #000 !important;
+}
+ol,ul {
+	list-style:none
+}
+blockquote,q {
+	quotes:none
+}
+blockquote:before,blockquote:after,q:before,q:after {
+	content:'';
+	content:none
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+#bodywrap {
+	width:700px;
+	margin:0 auto
+}
+#headwrap {
+	width:100%;
+	text-align:center;
+	padding-top:15px
+}
+.loginform {
+	width:100%;
+	padding:10px 0;
+	margin-bottom:15px;
+	font-weight:bold
+}
+.login,.daftar {
+}
+.login:hover,.daftar:hover {
+	cursor:pointer
+}
+.login {
+	border:0;
+	font-size:30px;
+	line-height:40px;
+	height:45px;
+	width:100%;
+	margin:5px 0 10px;
+	font-family:tahoma,arial;
+	background:#D34242;
+	color:#FFF!important;
+	cursor: pointer;
+    box-shadow: inset 0 0 0 0 #f90404;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.3s;
+}
+.slide:hover{
+	box-shadow: inset 700px 0 0 0 #242222;
+}
+.daftar {
+	border:0;
+	font-size:30px;
+	line-height:40px;
+	height:45px;
+	width:100%;
+	font-family:tahoma,arial;
+	background:#40902F;
+	color:#FFF!important;
+	cursor: pointer;
+    box-shadow: inset 0 0 0 0 #242222;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.3s;
+}
+.logo img {
+	max-width:60%
+}
+#news {
+	width:100%;
+	height:37px;
+	padding:20px 0 0;
+	font-family:prompt,arial;
+	text-transform:uppercase
+}
+#jackpot {
+	margin:10px 0 15px;
+	font-size:34px;
+	letter-spacing:4px;
+	text-shadow:0 0 2px #999
+}
+.slide {
+	margin-bottom:4px
+}
+h1,h2,h3 {
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing:1.5px;
+	color:#FFF;
+}
+h1 {
+	font-size:24px
+}
+h2 {
+	font-size:22px
+}
+h3 {
+	font-size:20px
+}
+p {
+	line-height:1.8;
+	margin-bottom:18px
+}
+a:link,a:visited,a:hover {
+	color:#fff;
+	text-decoration:none
+}
+ul li {
+	list-style:circle;
+	padding-left:10px;
+	list-style-position:inside;
+	margin-bottom:7px
+}
+ol li {
+	list-style:decimal;
+	padding-left:10px;
+	list-style-position:inside;
+	margin-bottom:7px
+}
+img {
+	max-width:100%
+}
+.date {
+	font-size:12px;
+	background:#111;
+	padding:5px 0 5px 10px;
+	border:1px solid #333;
+	border-radius:5px;
+	color:#ccc;
+	margin-bottom:10px
+}
+.copyright {
+	max-width:600px;
+	margin:15px auto 30px;
+	text-align:center;
+	font-size:14px;
+	color:orange;
+	width:100%
+}
+.kontener {
+	display:inline-block;
+	cursor:pointer;
+	width:100%;
+	margin:10px 0
+}
+.change .kontener {
+	margin-bottom:20px
+}
+.bar1,.bar2,.bar3 {
+	width:25px;
+	height:2px;
+	background-color:#f5f5f5;
+	margin:6px 0;
+	transition:.4s;
+	box-shadow:0 0 3px #fff
+}
+.change .bar1 {
+	opacity:1
+}
+.change .bar2 {
+	opacity:1
+}
+.change .bar3 {
+	opacity:1
+}
+.tombol {
+	float:right;
+	width:35px
+}
+.menu {
+	transition:.7s;
+	float:left;
+	margin:5px 0;
+	height:0;
+	width:100%
+}
+.change .menu {
+	background:#000;
+	display:block;
+	float:left;
+	height:40px
+}
+.change .menu ul {
+	margin:0
+}
+.menu ul li {
+	color:#fff;
+	float:left;
+	width:22%;
+	text-align:center;
+	list-style:none;
+	padding:5px;
+	display:none
+}
+.change .menu ul li {
+	list-style:none;
+	padding:5px;
+	display:block
+}
+@media screen and (max-width:480px) {
+	#bodywrap {
+		max-width:96%;
+		margin:0 auto
+	}
+	#news {
+		font-size:14px;
+		height:20px
+	}
+	.login,.daftar {
+		width:65%;
+		margin:10px auto;
+		height:37px;
+		line-height:35px;
+		font-size:16px;
+		font-weight:700
+	}
+	p {
+		text-align:justify
+	}
+}
+@media screen and (max-width:320px) {
+	#bodywrap {
+		max-width:96%;
+		margin:0 auto
+	}
+	p {
+		text-align:justify
+	}
+}
